@@ -19,3 +19,21 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps)(ListElement);
+
+
+/* 
+List.js deleted
+
+import React , {Fragment} from 'react';
+
+const List = ({text = 'text'})=>{
+    return(
+        <Fragment>
+            <li>{text}</li>
+        </Fragment>
+        
+    )
+}
+
+
+export default List ;  */
